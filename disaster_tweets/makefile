@@ -3,4 +3,3 @@ setup:
 	@curl -LsSf https://astral.sh/uv/install.sh | sh
 	@uv sync
 	@echo "Environment setup complete."
-	@bash -c 'while :; do date; sleep 1; done'

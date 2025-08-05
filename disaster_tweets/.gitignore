@@ -1,2 +1,7 @@
 kaggle_key.json
 .venv
+.ipynb_checkpoints
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
