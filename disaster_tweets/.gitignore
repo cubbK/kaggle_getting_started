@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+roberta_disaster_classifier.weights.h5
