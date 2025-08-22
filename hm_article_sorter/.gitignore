@@ -6,3 +6,4 @@ wds_shards
 src/swin-tiny-patch4-window7-224-finetuned-eurosat
 src/dinov2-base-finetuned-eurosat
 src/dinov2-base-finetuned-eurosat-clothes
+src/dinov2-base-finetuned-clothes-big
