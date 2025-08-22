@@ -5,11 +5,26 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "accelerate>=1.10.0",
     "datasets>=4.0.0",
+    "evaluate>=0.4.5",
     "ipykernel>=6.30.1",
     "pandas>=2.3.1",
     "pillow>=11.3.0",
     "pip>=25.2",
     "pyarrow>=16.0.0",
+    "scikit-learn>=1.7.1",
+    "torch>=2.8.0",
+    "torchao>=0.12.0",
+    "torchvision>=0.23.0",
+    "transformers>=4.55.3",
     "webdataset>=1.0.2",
 ]
+# [tool.uv.sources]
+# torch = { index = "pytorch" }
+
+# [[tool.uv.index]]
+# # Optional name for the index.
+# name = "pytorch"
+# # Required URL for the index.
+# url = "https://download.pytorch.org/whl/cu129"
